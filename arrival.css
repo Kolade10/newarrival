@@ -182,6 +182,11 @@ height: 800px;
 
 width: 480px;
 }
+.classimg{
+    display: grid;
+    width: 301px;
+    justify-items: center;
+}
 .collecthead{
     width: 600px;
     height: 112px;
