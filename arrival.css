@@ -1,0 +1,329 @@
+html,
+body{
+    max-width: 1400px;
+    min-width: 1400px;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    width: 88%;
+    height: 50px;
+    padding: 50px 100px 50px 159px;
+    display: grid;
+    grid-template-columns: 405px 569px 172px;
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+}
+.wg{
+    width: 61px;
+    height: 50px;
+}
+.log{
+    width: 40px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.search{
+    height: 43px;
+    width: 536px;
+    background-color: #e0e1e3;
+    outline: none;
+    border: none;
+}
+nav ::placeholder{
+    color: black;
+    float: right;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-weight: 100;
+}
+.icons{
+    width: 172px;
+    height: 18px;
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    grid-gap: 56px;
+}
+.pers{
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+}
+.hert{
+    width: 25px;
+    height: 50px;
+    cursor: pointer;
+}
+.draft{
+    width: 20px;
+    height: 23px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+hr{
+    margin: 0px;
+}
+.shopnow{
+    width: 231px;
+    height: 86px;
+    color: #060606;
+    border-color: #060606;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 45px;
+    font-weight: 500;
+    margin: 86px 0px 0px;
+}
+.shopnow a{
+    text-decoration: none;
+    color: #060606;
+}
+.section1{
+    width: 89.5%;
+    padding: 100px 0px 0px 150px;
+    height: 1445px;
+}
+.arrival{
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 977px 100px 100px;
+}
+.arrival h1{
+    width: 450px;
+    height: 112px;
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 400;
+    color: #060606;
+    margin: 0px;
+}
+.leftarr{
+    width: 56px;
+    height: 56px;
+    transform: rotate(90deg);
+    margin-top: 40px;
+    cursor: pointer;
+}
+.rightarr{
+    width: 56px;
+    height: 56px;
+    transform: rotate(-90deg);
+    margin-top: 40px;
+    cursor: pointer;
+}
+.imgbox{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 70px;
+}
+.box{
+    width: 250px;
+    height: 578px;
+}
+.box img{
+    width: 250px;
+    height: 508px;
+}
+.tag{
+    width: 100%;
+    height: 68px;
+    display: grid;
+    grid-template-columns: 134px 80px;
+    grid-gap: 37px;
+}
+.tag p{
+    margin: 28px 0px 0px 0px;
+    height: 34px;
+    width: 150px;
+    font-size: 24px;
+    line-height: 33.6px;
+    font-weight: 300;
+}
+.tag h3{
+    width: 80px;
+    height: 50px;
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 400;
+    margin: 20px 0px 0px 0px;
+}
+.more{
+    float: right;
+    width: 180px;
+    height: 45px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    color: #060606;
+}
+.more a{
+    text-decoration: none;
+    color: #060606;
+}
+.section2{
+    width: 89.5%;
+    padding: 50px 0px 0px 150px;
+    height: 870px;
+
+    display: grid;
+    grid-template-columns: 480px 673px;
+    grid-gap: 94px;
+}
+.collection{
+height: 800px;
+
+width: 480px;
+}
+.collecthead{
+    width: 600px;
+    height: 112px;
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 400;
+    color: #060606;
+    margin: 0px;
+}
+.collectbold{
+    width: 420px;
+    height: 112px;
+    font-size: 80px;
+    font-weight: 600;
+    color: #060606;
+    margin: 20px 0px;
+}
+.collection .shopnow{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-top: 82px;
+}
+.collectionimg{
+    width: 468px;
+    height: 784px;
+    background-image: url(unbutt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: color;
+    margin-top: 82px;
+}
+.hat{
+    width: 327px;
+    height: 508px;
+    position: relative;
+    left: -125px;
+    top: -80px;
+}
+.denim{
+    width: 327px;
+    height: 508px;
+    position: relative;
+    left: 340px;
+    top: -290px;
+}
+.white{
+    color: white;
+}
+.section3{
+    width: 89.5%;
+    padding: 100px 0px 0px 150px;
+    height: 975px;
+    display: grid;
+    grid-template-columns: 550px 664px;
+}
+.idea{
+    width: 550px;
+    height: 975px;
+}
+.idea h1{
+    width: 550px;
+    height: 448px;
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 500;
+    color: #060606;
+    margin: 0px;
+}
+.idea p{
+    width: 481px;
+    height: 270px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 45px;
+    color: #060606;
+    margin-bottom: 49px;
+}
+.idea .shopnow{
+    margin-top: 0px;
+}
+.ideaimg{
+    width: 664px;
+    height: 873px;
+    background-image: url(bernie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.foot{
+    width: 100%;
+    height: 331px;
+    background-color: #060606;
+    color: white;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: 380px 200px 200px 200px;
+    justify-content: center;
+}
+.copybox{
+    height: 200px;
+    width: 375px;
+}
+.copybox h1{
+    width: 375px;
+    height: 56px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.copybox p{
+    width: 280px;
+    height: 28px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.footbox{
+    width: 195px;
+    height: 300px;
+}
+.footbox p{
+    width: 195px;
+    height: 45px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 45px;
+
+
+}
+.footbox ul{
+    padding: 0px;
+}
+.footbox ul li{
+    width: 100px;
+    height: 28px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+    list-style: none;
+    margin: 20px 0px;
+}
+.footbox ul li a{
+    text-decoration: none;
+    color: white;
+}
